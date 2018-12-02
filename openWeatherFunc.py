@@ -1,10 +1,10 @@
-#funcionts
+#   functions
 #
 #
 
 import time
 import json
-import http.client#technically dont need this.
+import http.client  #technically dont need this.
 import urllib.request
 import urllib.parse
 import openpyxl
@@ -32,8 +32,6 @@ def inCities(city):
     cities.close()
 
     return len(matches),matches
-
-apiKey = '2d538925104ad8f9427cf46bd1b876c8'
 
 def foldCheck(city):#manage folder creation
     #returns true if we are getting info
